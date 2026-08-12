@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghazal's project hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="./">GH<span>✦</span></a>
+        <div class="nav-links">
+          <a class="active" href="#projects">Projects</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="status"><span class="status-dot"></span> currently creating</div>
+      </nav>
+
+      <section class="hero" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark">✳</span> welcome to my corner of the internet</p>
+          <h1>Ghazal's<br /><em>project hub</em><span class="title-dot">.</span></h1>
+          <p class="intro">A little collection of things I’m making,<br class="desktop-break" /> learning, and dreaming up.</p>
+          <a class="scroll-cue" href="#projects"><span>↓</span> explore projects</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="music-note note-one">♪</div><div class="music-note note-two">♫</div><div class="music-note note-three">♩</div><div class="music-note note-four">♪</div><div class="music-note note-five">♫</div>
+          <div class="violin" aria-label="violin illustration" role="img">🎻</div>
+          <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / the collection</p><h2>Things I’ve made<span>.</span></h2></div>
+          <p class="project-count">04 projects<br />and counting</p>
+        </div>
+        <div class="card-grid">
+          <a class="project-card game-card" href="#">
+            <div class="card-top"><span class="tag">GAME</span><span class="arrow">↗</span></div>
+            <div class="game-illustration"><div class="real-controller" aria-label="console controller" role="img"><span class="real-dpad"></span><span class="real-stick stick-left"></span><span class="real-stick stick-right"></span><span class="real-buttons">● ● ● ●</span><span class="real-home">●</span></div></div>
+            <div class="card-info"><h3>my first game</h3><p>A tiny adventure in a very big world.</p></div>
+          </a>
+          <a class="project-card sketch-card" href="#">
+            <div class="card-top"><span class="tag">PLAYGROUND</span><span class="arrow">↗</span></div>
+            <div class="brainstorm-illustration"><span>☁</span><b>⚡</b><i>?</i><strong>?</strong><em>!</em><small>!</small></div>
+            <div class="card-info"><h3>brain storm</h3><p>Big ideas arriving all at once.</p></div>
+          </a>
+          <a class="project-card garden-card" href="#">
+            <div class="card-top"><span class="tag">WEB</span><span class="arrow">↗</span></div>
+            <div class="garden-illustration"><div class="flower flower-a">✿</div><div class="flower flower-b">✽</div><div class="stem"></div><div class="tulip" aria-label="pink tulip" role="img">🌷</div></div>
+            <div class="card-info"><h3>mon petit jardin</h3><p>Growing thoughts one link at a time.</p></div>
+          </a>
+          <a class="project-card coming-card" href="#">
+            <div class="card-top"><span class="tag">SOON</span><span class="arrow">+</span></div>
+            <div class="coming-illustration">?</div>
+            <div class="card-info"><h3>did i do this?</h3><p>Currently brewing in the background.</p></div>
+          </a>
+        </div>
+      </section>
+
+      <footer><span>made with curiosity ✦</span><span>© 2024 Ghazal</span></footer>
+    </main>
+    <script>
+      document.querySelectorAll('.music-note').forEach((note) => {
+        note.addEventListener('click', () => {
+          note.classList.remove('note-clicked');
+          void note.offsetWidth;
+          note.classList.add('note-clicked');
+        });
+      });
+    </script>
+  </body>
+</html>
