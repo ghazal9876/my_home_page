@@ -9,6 +9,12 @@
 @media(max-width:800px){.card-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.card-grid{grid-template-columns:1fr}}
 
+.match-card{background:linear-gradient(145deg,#356fc0 0%,#17366d 100%);color:#eef6ff;box-shadow:inset 0 1px 0 #ffffff55,0 10px 24px #102d5c66}
+.match-illustration{height:145px;display:grid;grid-template-columns:repeat(2,66px);grid-template-rows:repeat(2,66px);gap:9px;place-content:center;transform:rotate(-6deg)}
+.match-illustration span{display:grid;place-items:center;border:3px solid #251938;border-radius:10px;background:linear-gradient(145deg,#fff1c7,#f4d98d);box-shadow:4px 5px 0 #6c3b2b88;font-size:34px;color:#e05b73;transition:transform .2s ease}
+.match-illustration span:nth-child(2),.match-illustration span:nth-child(3){color:#7656d6}
+.match-card:hover .match-illustration span:nth-child(1),.match-card:hover .match-illustration span:nth-child(4){transform:rotateY(180deg)}
+
 /* final title adjustment */
 h1,h1 em,h1 .title-dot{color:#287a4a}
 
