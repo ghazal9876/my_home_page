@@ -15,6 +15,12 @@
 .match-illustration span:nth-child(2),.match-illustration span:nth-child(3){color:#7656d6}
 .match-card:hover .match-illustration span:nth-child(1),.match-card:hover .match-illustration span:nth-child(4){transform:rotateY(180deg)}
 
+/* match the shared animated background treatment used by the other cards */
+.project-card{background-size:200% 200%;animation:card-color-fade 7s ease-in-out infinite}
+.project-card.match-card{background:linear-gradient(145deg,#5d8ed1bb 0%,#2a4f92cc 100%);color:#eef6ff;animation-delay:-6.8s}
+.restaurant-card{animation-delay:-5.8s}
+
+
 /* final title adjustment */
 h1,h1 em,h1 .title-dot{color:#287a4a}
 
