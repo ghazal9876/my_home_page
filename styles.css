@@ -81,3 +81,10 @@ body{background:radial-gradient(ellipse at 75% 12%,#302264 0,transparent 30%),ra
 .coming-illustration .question-small{position:absolute;font-family:'Bagel Fat One',cursive;font-size:48px;color:#5a36a6;text-shadow:2px 2px 0 #17366d66}
 .question-left{left:66px;top:47px;transform:rotate(-14deg)}.question-right{right:62px;top:72px;transform:rotate(15deg)}
 .ttt-logo{display:grid;grid-template-columns:repeat(3,1fr);width:142px;height:142px;padding:11px;background:#f5f7ff;border:4px solid #10192d;border-radius:18px;box-shadow:6px 8px 0 #102d5c88;transform:rotate(-7deg);transition:transform .2s ease}.ttt-logo span{display:grid;place-items:center;font-family:Arial,sans-serif;font-size:30px;font-weight:900;color:#ff6b9d;border-right:3px solid #31538d;border-bottom:3px solid #31538d}.ttt-logo span:nth-child(3n){border-right:0}.ttt-logo span:nth-child(n+7){border-bottom:0}.ttt-logo span:nth-child(even){color:#315fc0}.game-card:hover .ttt-logo{transform:rotate(3deg) scale(1.06)}
+.mario-card{background:linear-gradient(145deg,#4d86d2bb 0%,#234985cc 100%);color:#eef6ff;animation-delay:-7.4s}
+.mario-illustration{height:145px;position:relative;display:grid;place-items:center;overflow:hidden}
+.mario-cloud{position:absolute;left:20px;top:16px;font-size:48px;color:#dcecff;filter:drop-shadow(3px 4px 0 #071b3d66)}
+.mario-character{font-size:76px;line-height:1;z-index:1;filter:drop-shadow(4px 6px 0 #071b3d66);transform:translateY(5px)}
+.mario-block{position:absolute;right:22px;top:25px;width:48px;height:48px;display:grid;place-items:center;background:#d89027;border:4px solid #6e3b24;border-radius:6px;color:#fff1b8;font-family:'Bagel Fat One',cursive;font-size:30px;box-shadow:4px 5px 0 #071b3d66;transform:rotate(5deg)}
+.mario-ground{position:absolute;bottom:18px;width:160px;height:11px;border-radius:4px;background:#6ab85c;box-shadow:0 7px 0 #a6d8e8, inset 0 3px 0 #b9ec78;transform:skewX(-12deg)}
+.mario-card:hover .mario-character{transform:translateY(-7px) scale(1.08)}
