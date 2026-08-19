@@ -93,3 +93,5 @@ body{background:radial-gradient(ellipse at 75% 12%,#302264 0,transparent 30%),ra
 .frog-logo{font-size:88px;line-height:1;z-index:1;filter:drop-shadow(4px 6px 0 #102d5c66);transform:rotate(-6deg);transition:transform .2s ease}
 .lily-pad{position:absolute;bottom:18px;left:calc(50% - 76px);width:152px;height:29px;border-radius:50%;background:#b9edc5;color:#237d69;text-align:center;font-size:19px;line-height:25px;box-shadow:0 5px 0 #102d5c55;transform:rotate(-4deg)}
 .frog-card:hover .frog-logo{transform:rotate(5deg) translateY(-7px) scale(1.08)}
+.restaurant-card,.match-card,.mario-card,.frog-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);color:#eef6ff;box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
+.project-card.match-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
