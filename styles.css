@@ -93,5 +93,12 @@ body{background:radial-gradient(ellipse at 75% 12%,#302264 0,transparent 30%),ra
 .frog-logo{font-size:88px;line-height:1;z-index:1;filter:drop-shadow(4px 6px 0 #102d5c66);transform:rotate(-6deg);transition:transform .2s ease}
 .lily-pad{position:absolute;bottom:18px;left:calc(50% - 76px);width:152px;height:29px;border-radius:50%;background:#b9edc5;color:#237d69;text-align:center;font-size:19px;line-height:25px;box-shadow:0 5px 0 #102d5c55;transform:rotate(-4deg)}
 .frog-card:hover .frog-logo{transform:rotate(5deg) translateY(-7px) scale(1.08)}
+.runner-card{background:linear-gradient(145deg,#7c56d6 0%,#30205f 100%);color:#f4efff;animation-delay:-9.2s;box-shadow:inset 0 1px 0 #d9caff,0 10px 24px #24134f66}
+.runner-illustration{height:145px;position:relative;display:grid;place-items:center;overflow:hidden}
+.runner-ship{font-size:76px;line-height:1;z-index:1;filter:drop-shadow(4px 6px 0 #17102f99);transform:rotate(-12deg);transition:transform .2s ease}
+.runner-card:hover .runner-ship{transform:rotate(-12deg) translate(5px,-7px) scale(1.08)}
+.runner-star{position:absolute;color:#ffd166;font-size:25px}.runner-star-one{top:25px;left:37px}.runner-star-two{right:32px;bottom:29px;color:#74e0c0;font-size:35px}
+.runner-trail{position:absolute;left:64px;bottom:42px;width:118px;height:8px;border-radius:10px;background:linear-gradient(90deg,#ff6b9d,transparent);transform:rotate(-12deg)}
+.runner-card .card-info p{color:#e1d8fa}
 .restaurant-card,.match-card,.mario-card,.frog-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);color:#eef6ff;box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
 .project-card.match-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
