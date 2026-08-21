@@ -100,5 +100,5 @@ body{background:radial-gradient(ellipse at 75% 12%,#302264 0,transparent 30%),ra
 .runner-star{position:absolute;color:#ffd166;font-size:25px}.runner-star-one{top:25px;left:37px}.runner-star-two{right:32px;bottom:29px;color:#74e0c0;font-size:35px}
 .runner-trail{position:absolute;left:64px;bottom:42px;width:118px;height:8px;border-radius:10px;background:linear-gradient(90deg,#ff6b9d,transparent);transform:rotate(-12deg)}
 .runner-card .card-info p{color:#e1d8fa}
-.restaurant-card,.match-card,.mario-card,.frog-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);color:#eef6ff;box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
+.restaurant-card,.match-card,.mario-card,.frog-card,.runner-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);color:#eef6ff;box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
 .project-card.match-card{background:linear-gradient(145deg,#356fc0bb 0%,#17366dcc 100%);box-shadow:inset 0 1px 0 #b3f0c8,0 10px 24px #0a3b2140}
